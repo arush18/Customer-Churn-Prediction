@@ -1,5 +1,4 @@
 """ Importing Libraries """
-from cProfile import label
 
 import pandas as pd
 import numpy as np
@@ -7,7 +6,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
-from IPython.core.pylabtools import figsize
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
